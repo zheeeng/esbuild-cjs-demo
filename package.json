@@ -1,0 +1,15 @@
+{
+  "name": "esbuild-cjs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/demo.ts --bundle --outfile=dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "esbuild": "^0.14.23"
+  }
+}
